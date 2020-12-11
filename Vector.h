@@ -7,4 +7,8 @@ struct Vector {
 	unsigned int capacity;
 }
 
+void pushBackVector(Vector* vector, double data);
+void popBackVector(Vector* vector);
+void clearVector(Vector* vector);
+
 #endif
